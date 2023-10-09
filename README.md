@@ -46,7 +46,27 @@
 
 ## :dart: About ##
 
-Describe your project
+Ce projet consiste en la création d'un jeu où cinq personnages s'affrontent dans des combats façon gladiateurs. Chaque personnage possède des caractéristiques telles que des points de vie (hp), des points de dégât (dmg) et des points de mana. Le but du jeu est de survivre à 10 tours, en utilisant judicieusement les attaques normales et spéciales de chaque personnage.
+
+Les cinq classes de personnages sont les suivantes : Fighter, Paladin, Monk, Berzerker et Assassin. Chaque classe a ses propres caractéristiques et une attaque spéciale unique qui consomme des points de mana.
+
+Les personnages du jeu sont les suivants :
+
+- Grace (Fighter)
+- Ulder (Paladin)
+- Moana (Monk)
+- Draven (Berzerker)
+- Carl (Assassin)
+
+Chaque personnage a une méthode pour infliger et recevoir des dégâts, ainsi qu'un statut (playing, winner ou loser). Si les points de vie d'un personnage atteignent zéro, il devient un loser et ne peut plus jouer ni être attaqué. Un personnage gagne 20 points de mana en éliminant un autre personnage.
+
+Le jeu se déroule dans la console et est orchestré par une classe Game. Cette classe gère le déroulement des tours, enregistre le nombre de tours restants, et déclare un personnage comme gagnant lorsque les tours sont épuisés. Chaque tour consiste en l'activation de la méthode startTurn, suivie des actions de chaque personnage. Les actions sont enregistrées dans la console, et lorsque tous les personnages ont joué, le tour est sauté.
+
+Le jeu continue jusqu'à ce qu'il ne reste qu'un personnage en vie, qui est déclaré gagnant. Les joueurs peuvent utiliser la méthode watchStats à tout moment pour afficher les statistiques des personnages et prendre des décisions tactiques.
+
+La partie est lancée en utilisant la fonction startGame.
+
+En résumé, ce projet est un jeu de combat entre cinq personnages, chacun ayant des caractéristiques uniques et des attaques spéciales, et le but est de survivre à 10 tours en utilisant stratégie et tactique. Le jeu est entièrement basé sur la console, et la classe Game gère le déroulement du jeu.
 
 ## :sparkles: Features ##
 
@@ -58,11 +78,7 @@ Describe your project
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Python]
 
 ## :white_check_mark: Requirements ##
 
@@ -77,14 +93,9 @@ $ git clone https://github.com/Hamza-bakk/rpg-game
 # Access
 $ cd rpg-game
 
-# Install dependencies
-$ yarn
+# Started Game
+$ pyton3 rpg.py
 
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
 
 ## :memo: License ##
 

@@ -11,7 +11,7 @@ class Character:
         self.status = "playing"
 
     def takeDamage(self, damage):
-        if self.status != "loser": #différent de 
+        if self.status != "loser":
             self.hp -= damage
             if self.hp <= 0:
                 self.status = "loser"
