@@ -93,9 +93,10 @@ $ git clone https://github.com/Hamza-bakk/rpg-game
 # Access
 $ cd rpg-game
 
-# Started Game
+# Install dependencies
 $ pyton3 rpg.py
 
+```
 
 ## :memo: License ##
 
