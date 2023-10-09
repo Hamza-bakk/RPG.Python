@@ -50,13 +50,14 @@ Ce projet consiste en la création d'un jeu où cinq personnages s'affrontent da
 
 Les cinq classes de personnages sont les suivantes : Fighter, Paladin, Monk, Berzerker et Assassin. Chaque classe a ses propres caractéristiques et une attaque spéciale unique qui consomme des points de mana.
 
-Les personnages du jeu sont les suivants :
+Les personnages du jeu sont les suivants : (D'autres personnage peuvent être ajoutés)
 
 - Grace (Fighter)
 - Ulder (Paladin)
 - Moana (Monk)
 - Draven (Berzerker)
 - Carl (Assassin)
+- Other (Choix du Nom)
 
 Chaque personnage a une méthode pour infliger et recevoir des dégâts, ainsi qu'un statut (playing, winner ou loser). Si les points de vie d'un personnage atteignent zéro, il devient un loser et ne peut plus jouer ni être attaqué. Un personnage gagne 20 points de mana en éliminant un autre personnage.
 
@@ -68,11 +69,6 @@ La partie est lancée en utilisant la fonction startGame.
 
 En résumé, ce projet est un jeu de combat entre cinq personnages, chacun ayant des caractéristiques uniques et des attaques spéciales, et le but est de survivre à 10 tours en utilisant stratégie et tactique. Le jeu est entièrement basé sur la console, et la classe Game gère le déroulement du jeu.
 
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
 
 ## :rocket: Technologies ##
 
